@@ -11,7 +11,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #ffffff;
+    background: set-text-color($primary-color);
     @include easOut;
   }
 
@@ -106,7 +106,7 @@
     font-size: 30px;
     text-transform: 1rem 0;
     font-weight: 300;
-    color: #ffffff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easOut;
     &:hover {
